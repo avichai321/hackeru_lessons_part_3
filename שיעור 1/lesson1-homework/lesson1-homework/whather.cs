@@ -27,11 +27,6 @@ namespace lesson1_homework
 
         }
 
-        public double this [int i]
-        {
-            get { return Tempertures[i, 0]; }
-            set { Tempertures[i, 0] = value; }
-        }
 
         public double GetWhetherByIndex(string index)
         {

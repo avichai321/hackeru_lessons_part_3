@@ -21,7 +21,6 @@ namespace lesson1_homework
 
         private void label1_Click(object sender, EventArgs e)
         {
-        Console.WriteLine(w1[2]);
 
         }
 

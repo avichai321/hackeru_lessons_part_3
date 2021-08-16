@@ -19,7 +19,9 @@ namespace lesson1_homework
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            
+            MangageMessure m2 = new MangageMessure();
+
+            Console.WriteLine(m2[1]);
         }
     }
 }

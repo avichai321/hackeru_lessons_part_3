@@ -26,16 +26,15 @@ namespace lesson1_homework
 
         }
 
-
-        public int this[int day]
+        public Meassure this[int day]
         {
             get
             {
-                return m1[day-1].Date;
+                return m1[day-1];
             }
             set
             { 
-                m1[day-1].Date = value;
+                m1[day-1] = value;
             }
         }
 
@@ -61,13 +60,13 @@ namespace lesson1_homework
             get
             {
                 for (int i = 0; i < m1.Length; i++)
-                {
+                
                     if (m1[i].Location == city && m1[i].Date==day)
                     {
                         return true;
 
                     }
-                }
+                
                 return false;
             }
         }

@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace lesson1_homework
+{
+    public partial class Form1 : Form
+    {
+        whather w1 = new whather();
+        public Form1()
+        {
+            InitializeComponent();
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        Console.WriteLine(w1[2]);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+           double a = w1.GetWhetherByIndex(textBoxday.Text);
+           textBoxwhether.Text = a.ToString();
+
+        }
+    }
+}

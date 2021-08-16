@@ -1,0 +1,15 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.runtimeconfig.dev.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\bin\Debug\netcoreapp3.1\lesson1-homework.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.csprojAssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1_homework.Form1.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.csproj.GenerateResource.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 1\lesson1-homework\lesson1-homework\obj\Debug\netcoreapp3.1\lesson1-homework.genruntimeconfig.cache

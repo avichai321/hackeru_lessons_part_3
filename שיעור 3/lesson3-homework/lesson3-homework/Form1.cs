@@ -61,7 +61,14 @@ namespace lesson3_homework
 
         private void button2_Click(object sender, EventArgs e)
         {
+            try 
+            { 
             textBox1.Text = studentsmanage.SearchById(int.Parse(textBox2.Text));
+            }
+            catch
+            {
+                textBox1.Text = "something wrong";
+            }
         }
 
         private void label5_Click(object sender, EventArgs e)

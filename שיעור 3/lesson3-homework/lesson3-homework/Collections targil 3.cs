@@ -5,29 +5,28 @@ using System.Text;
 
 namespace lesson3_homework
 {
-    interface collec<T>
+    class Collections<T> 
     {
-        public string gettype(T type);
-    }
-    class Collections<T,U,D,A> : collec<T>
-    {
+    T[] arr = new T[10];  
 
         public string gettype(T type)
         { 
             return type.GetType().ToString();
         }
+        public string Add(T data)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] == null)
+                {
+                    arr[i] = data;
+                    break;
+                }
+            }
+             Array.Sort(arr);
+            return $"added succesfully to {data.GetType().Name} array";
+            
+        }
 
-        public string gettype(U type)
-        {
-            return type.GetType().ToString();
-        }
-        public string gettype(D type)
-        {
-            return type.GetType().ToString();
-        }
-        public string gettype(A type)
-        {
-            return type.GetType().ToString();
-        }
     }
 }

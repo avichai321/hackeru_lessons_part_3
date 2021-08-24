@@ -21,7 +21,10 @@ namespace lesson3_homework
         ReadOnlyGeneric<Course> coursemanage = new ReadOnlyGeneric<Course>();
         #endregion
         #region 3
-        Collections<int,double,char,string> Types = new Collections<int, double, char, string>();
+        Collections<int> Typeint = new Collections<int>();
+        Collections<double> Typedouble = new Collections<double>();
+        Collections<char> Typechar = new Collections<char>();
+        Collections<string> Typestring = new Collections<string>();
         #endregion
         #region 4
         GenericId<Lecturer> listlec = new GenericId<Lecturer>();
@@ -80,24 +83,29 @@ namespace lesson3_homework
         {
             try
             {
-                textBox4.Text=Types.gettype(int.Parse(textBox3.Text));
+               
+                textBox4.Text=Typeint.gettype(int.Parse(textBox3.Text));
+                textBox13.Text = Typeint.Add(int.Parse(textBox3.Text));
             }
             catch
             {
                 try
                 {
-                    textBox4.Text = Types.gettype(double.Parse(textBox3.Text));
+                    textBox4.Text = Typedouble.gettype(double.Parse(textBox3.Text));
+                    textBox13.Text = Typedouble.Add(double.Parse(textBox3.Text));
                 }
                 catch
                 {
                     try
                     {
-
-                    textBox4.Text = Types.gettype(char.Parse(textBox3.Text));
+                    textBox4.Text = Typechar.gettype(char.Parse(textBox3.Text));
+                    textBox13.Text = Typechar.Add(char.Parse(textBox3.Text));
+                       
                     }
                     catch
                     {
-                        textBox4.Text = Types.gettype(textBox3.Text);
+                        textBox4.Text = Typestring.gettype(textBox3.Text);
+                        textBox13.Text = Typestring.Add(textBox3.Text);
                     }
                 }
             }

@@ -73,6 +73,8 @@ namespace lesson3_homework
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -177,7 +179,7 @@ namespace lesson3_homework
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(686, 111);
+            this.label3.Location = new System.Drawing.Point(686, 94);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 14;
@@ -185,7 +187,7 @@ namespace lesson3_homework
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(580, 73);
+            this.textBox3.Location = new System.Drawing.Point(545, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 15;
@@ -193,7 +195,7 @@ namespace lesson3_homework
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(704, 73);
+            this.label6.Location = new System.Drawing.Point(691, 65);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 15);
             this.label6.TabIndex = 16;
@@ -201,18 +203,18 @@ namespace lesson3_homework
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(580, 108);
+            this.textBox4.Location = new System.Drawing.Point(545, 94);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 23);
             this.textBox4.TabIndex = 17;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(453, 86);
+            this.button5.Location = new System.Drawing.Point(426, 73);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(104, 37);
+            this.button5.Size = new System.Drawing.Size(104, 63);
             this.button5.TabIndex = 18;
-            this.button5.Text = "החזר סוג משתנה";
+            this.button5.Text = "החזר סוג משתנה והוסף למערך המתאים";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -456,11 +458,29 @@ namespace lesson3_homework
             this.textBox12.Size = new System.Drawing.Size(100, 23);
             this.textBox12.TabIndex = 47;
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(660, 128);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(129, 15);
+            this.label18.TabIndex = 48;
+            this.label18.Text = "סוג מערך שאליו התווסף";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(545, 123);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(100, 23);
+            this.textBox13.TabIndex = 49;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 660);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
@@ -558,6 +578,8 @@ namespace lesson3_homework
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox13;
     }
 }
 

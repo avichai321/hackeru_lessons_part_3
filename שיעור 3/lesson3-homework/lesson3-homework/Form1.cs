@@ -13,15 +13,15 @@ namespace lesson3_homework
 {
     public partial class Form1 : Form
     {
+        #region 1
+        Classtargil1<string> tar1 = new Classtargil1<string>();
+        #endregion
         #region 2
         ReadOnlyGeneric<Student> studentsmanage = new ReadOnlyGeneric<Student>();
         ReadOnlyGeneric<Course> coursemanage = new ReadOnlyGeneric<Course>();
         #endregion
         #region 3
-        Collections<int> Typeint = new Collections<int>();
-        Collections<double> Typedouble = new Collections<double>();
-        Collections<char> Typechar = new Collections<char>();
-        Collections<string> Typestring = new Collections<string>();
+        Collections<int,double,char,string> Types = new Collections<int, double, char, string>();
         #endregion
         #region 4
         GenericId<Lecturer> listlec = new GenericId<Lecturer>();
@@ -67,7 +67,7 @@ namespace lesson3_homework
             }
             catch
             {
-                textBox1.Text = "something wrong";
+                textBox1.Text="something wrong";
             }
         }
 
@@ -80,24 +80,24 @@ namespace lesson3_homework
         {
             try
             {
-                textBox4.Text=Typeint.gettype(int.Parse(textBox3.Text));
+                textBox4.Text=Types.gettype(int.Parse(textBox3.Text));
             }
             catch
             {
                 try
                 {
-                    textBox4.Text = Typedouble.gettype(double.Parse(textBox3.Text));
+                    textBox4.Text = Types.gettype(double.Parse(textBox3.Text));
                 }
                 catch
                 {
                     try
                     {
 
-                    textBox4.Text = Typechar.gettype(char.Parse(textBox3.Text));
+                    textBox4.Text = Types.gettype(char.Parse(textBox3.Text));
                     }
                     catch
                     {
-                        textBox4.Text = Typestring.gettype(textBox3.Text);
+                        textBox4.Text = Types.gettype(textBox3.Text);
                     }
                 }
             }
@@ -138,6 +138,18 @@ namespace lesson3_homework
         {
             textBox8.Text = basename.Name;
             textBox9.Text = basename.ToString();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            try
+            {
+            textBox12.Text = tar1.Combine(new string[int.Parse(textBox10.Text)], new string[int.Parse(textBox11.Text)]);
+            }
+            catch
+            {
+                textBox12.Text = "Error accord";
+            }
         }
     }
 }

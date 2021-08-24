@@ -9,11 +9,24 @@ namespace lesson3_homework
     {
         public string gettype(T type);
     }
-    class Collections<T> : collec<T>
+    class Collections<T,U,D,A> : collec<T>
     {
 
         public string gettype(T type)
         { 
+            return type.GetType().ToString();
+        }
+
+        public string gettype(U type)
+        {
+            return type.GetType().ToString();
+        }
+        public string gettype(D type)
+        {
+            return type.GetType().ToString();
+        }
+        public string gettype(A type)
+        {
             return type.GetType().ToString();
         }
     }

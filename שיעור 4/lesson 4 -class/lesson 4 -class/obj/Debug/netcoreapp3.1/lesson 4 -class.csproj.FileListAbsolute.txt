@@ -1,0 +1,13 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.csprojAssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.runtimeconfig.dev.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\bin\Debug\netcoreapp3.1\lesson 4 -class.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 4\lesson 4 -class\lesson 4 -class\obj\Debug\netcoreapp3.1\lesson 4 -class.genruntimeconfig.cache

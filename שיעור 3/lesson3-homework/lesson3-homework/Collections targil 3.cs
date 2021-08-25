@@ -5,13 +5,13 @@ using System.Text;
 
 namespace lesson3_homework
 {
-    class Collections<T> 
+    class Collections<T>
     {
-    T[] arr = new T[10];
+        T[] arr = new T[10];
         public int count { get; set; } = 0;
 
         public string gettype(T type)
-        { 
+        {
             return type.GetType().ToString();
         }
         public string Add(T data)
@@ -28,10 +28,10 @@ namespace lesson3_homework
                 return $"{data.GetType().Name} array is full";
             }
 
-                   
-                
-            
-            
+
+
+
+
         }
 
 

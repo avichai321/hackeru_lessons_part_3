@@ -7,7 +7,8 @@ namespace lesson3_homework
 {
     class Collections<T> 
     {
-    T[] arr = new T[10];  
+    T[] arr = new T[10];
+        public int count { get; set; } = 0;
 
         public string gettype(T type)
         { 
@@ -15,18 +16,24 @@ namespace lesson3_homework
         }
         public string Add(T data)
         {
-            for (int i = 0; i < arr.Length; i++)
+            if (count != arr.Length)
             {
-                if(arr[i] == null)
-                {
-                    arr[i] = data;
-                    break;
-                }
+                arr[count] = data;
+                count++;
+                Array.Sort(arr);
+                return $"added succesfully to {data.GetType().Name} array";
             }
-             Array.Sort(arr);
-            return $"added succesfully to {data.GetType().Name} array";
+            else
+            {
+                return $"{data.GetType().Name} array is full";
+            }
+
+                   
+                
+            
             
         }
+
 
     }
 }

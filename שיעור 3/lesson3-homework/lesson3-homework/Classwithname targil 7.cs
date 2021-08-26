@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace lesson3_homework
 {
-    interface BaseName
+    interface IBaseName
     {
         public string Name { get; set; }
     }
 
-    class Classwithname : BaseName
+    class Classwithname : IBaseName
     {
         public string Name { get; set; } = "classic";
 

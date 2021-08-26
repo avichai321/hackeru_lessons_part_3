@@ -77,14 +77,7 @@ namespace lesson3_homework
 
         public void ChangeReadOnly()
         {
-            if (!IsReadOnly)
-            {
-                IsReadOnly = true;
-            }
-            else
-            {
-                IsReadOnly = false;
-            }
+            IsReadOnly = !IsReadOnly;
         }
     }
 

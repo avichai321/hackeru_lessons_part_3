@@ -32,6 +32,12 @@ namespace lesson3_homework
         Stuclass examclass = new Stuclass();
         Lecturer examlecturer = new Lecturer();
         #endregion
+        #region 5
+        Stack<int> stackint = new Stack<int>();
+        #endregion
+        #region 6
+        Queue<int> queueint = new Queue<int>();
+        #endregion
         #region 7
         Classwithname basename = new Classwithname();
         #endregion
@@ -158,6 +164,31 @@ namespace lesson3_homework
             {
                 textBox12.Text = "Error accord";
             }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            stackint.Push(int.Parse(textBox14.Text));
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            textBox15.Text =stackint.Peek().ToString();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox16.Text = stackint.Pop().ToString();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            queueint.Enqueue(int.Parse(textBox17.Text));
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            textBox18.Text =queueint.Dequeue().ToString();
         }
     }
 }

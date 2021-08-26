@@ -8,7 +8,7 @@ namespace lesson3_homework
     class Collections<T>
     {
         T[] arr = new T[10];
-        public int count { get; set; } = 0;
+        public int count { get; set; } = 9;
 
         public string gettype(T type)
         {
@@ -18,8 +18,7 @@ namespace lesson3_homework
         {
             if (count != arr.Length)
             {
-                arr[count] = data;
-                count++;
+                arr[count++] = data;
                 Array.Sort(arr);
                 return $"added succesfully to {data.GetType().Name} array";
             }

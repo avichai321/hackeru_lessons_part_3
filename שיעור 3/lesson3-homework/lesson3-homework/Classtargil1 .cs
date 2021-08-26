@@ -10,7 +10,16 @@ namespace lesson3_homework
     {
         public string Combine(T[] a , T[] b)
         {
+            int i = 0;
             T[] newarray1 = new T [a.Length + b.Length];
+            foreach (var item in a)
+            {
+                newarray1[i++] = item;
+            }
+            foreach (var item in b)
+            {
+                newarray1[i++] = item;
+            }
             return newarray1.Length.ToString();
         }
     }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XxESDfPwdjd10n8yldUIcjzj6TEXxXfAa/EvqgvxfiCUVBC0LaG+ANCLFgNoVYAlxlt/4EFzmGEoKKVyKyfGyA==",
+  "success": true,
+  "projectFilePath": "D:\\לימודים דוטנט האקריו\\Object Oriented Programming- C# Net Core\\hackeru_lessons_part_3\\שיעור 5\\lesson 5 class\\lesson 5 class\\lesson 5 class.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAHAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

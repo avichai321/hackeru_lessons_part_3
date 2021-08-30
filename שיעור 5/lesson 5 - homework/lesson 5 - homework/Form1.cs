@@ -61,9 +61,9 @@ namespace lesson_5___homework
         {
             listTempertures.Sort();
             listBox2.Items.Clear();
-            foreach (var item in liststudent)
+            foreach (var item in listTempertures)
             {
-                listBox2.Items.Add(item);
+                listBox2.Items.Add(item.ToString());
             }
         }
     }

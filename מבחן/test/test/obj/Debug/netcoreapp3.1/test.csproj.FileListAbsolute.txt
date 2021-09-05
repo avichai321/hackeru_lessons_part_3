@@ -1,0 +1,13 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\מבחן\test\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache

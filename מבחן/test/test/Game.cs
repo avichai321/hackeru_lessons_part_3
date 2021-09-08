@@ -19,9 +19,9 @@ namespace test
         {
             Countshapes = Rand1.Next(3, 6);
             ShapelistStart.Add(new Rectangle());
+            ShapelistStart.Add(new Triangle());
             ShapelistStart.Add(new Line());
             ShapelistStart.Add(new Square());
-            ShapelistStart.Add(new Triangle());
         }
 
 

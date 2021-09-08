@@ -6,16 +6,18 @@ namespace test
 {
     class Game
     {
-        public bool[,] GeneralPositionList { get; private set; } = new bool[80, 25];
-        Random Rand = new Random();// יצירת ההגרלה במשחק
+        public bool[,] GeneralPositionList { get; private set; } = new bool[81, 26];//  מערך המשחק השלם
+        private Random Rand1 { get; set; } = new Random();// יצירת ההגרלה במשחק
         private List<BasicShape> ShapelistStart = new List<BasicShape>(4);
-        public List<BasicShape> Shapelistgame { get; set; } = new List<BasicShape>(15); // מספר הצורות במשחק
-        public int Countshapes { get; set; }
-        public int Round { get; set; }
+        public List<BasicShape> Shapelistgame { get; set; } = new List<BasicShape>(15); // רשימה שמרכזת את הצורות במשחק
+        public int Countshapes { get; set; }// מספר הצורות במשחק
+        public int Trys { get; set; } = 0;//נסיונות לבניית לוח
+        public bool CheckShape { get; set; }// מאפיין שבודק אם הצורות חופפות או לא
+        public int Points { get; set; }// מספר הנקודות שהשחקן מרוויח במשחק
 
         public Game()
         {
-            Countshapes = Rand.Next(3, 6);
+            Countshapes = Rand1.Next(3, 6);
             ShapelistStart.Add(new Rectangle());
             ShapelistStart.Add(new Line());
             ShapelistStart.Add(new Square());
@@ -25,145 +27,70 @@ namespace test
 
         public void Gamestart()
         {
+            Console.SetWindowSize(81, 26);
             int XBall, YBall;
+
             Ball ball = new Ball();
-            while (Countshapes != 15)// תנאי סף להמשך המשחק
+            while (Countshapes != 15 && Trys != 30)// תנאי סף להמשך המשחק
             {
-                Console.SetWindowSize(80, 25);
-                if (Round == 0)
+                GeneralPositionList.CleanBoolArray();
+                Console.Clear();
+                Console.BackgroundColor = ConsoleColor.Black;
+                for (int i = 0; i < Countshapes; i++)// יצירת הצורות
                 {
-                    for (int i = 0; i < Countshapes; i++)// יצירת הצורות
+                    int rollShape = Rand1.Next(0, 3);
+                    Shapelistgame.Add(ShapelistStart[rollShape]);
+                }
+                foreach (var shape in Shapelistgame)// תהליך יצירת המורות במשחק
+                {
+                    shape.GenerateShapes();
+                    CheckShape = GeneralPositionList.AddInnerArrayToMainArray(shape.Shapeposition);// בדיקה אם הצורות חופפות
+                    if (CheckShape == false)// במקרה והצורות חופפות
                     {
                         Console.Clear();
-                        int rollShape = Rand.Next(0, 3);
-                        Shapelistgame.Add(ShapelistStart[rollShape]);
-                        Shapelistgame[i].GenerateShapes();
-                        for (int k = 0; k < Shapelistgame[i].Shapeposition.GetLength(0); k++)
-                        {
-                            for (int j = 0; j < Shapelistgame[i].Shapeposition.GetLength(1); j++)
-                            {
-                                if (Shapelistgame[i].Shapeposition[k, j] == true)
-                                {
-                                    GeneralPositionList[k, j] = true;
-                                }
-
-                            }
-                        }
-
-
+                        Shapelistgame.Clear();
+                        GeneralPositionList.CleanBoolArray();
+                        Trys++;
+                        break;
                     }
-                    try
+                }
+                if (CheckShape == true)// תנאי להצבת הכדור אם הצורות לא חופפות
+                {
+                    try// ווידוי שהכדור לא עובר את הגבולות 
                     {
-
-                        XBall = Rand.Next(0, 80);
-                        YBall = Rand.Next(0, 25);
-                        do
+                        Console.BackgroundColor = ConsoleColor.Black;
+                        XBall = Rand1.Next(1, 79);// הגרלת מיקום הכדור על ציר האיקס
+                        YBall = Rand1.Next(1, 24);// הגרלת מיקום הכדור על ציר הוואי
+                        Console.SetCursorPosition(XBall, YBall);
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write(ball.Thechar);
+                        while (GeneralPositionList[XBall, YBall] != true)// ווידוי שהכדור לא נופל על צורה 
                         {
-                            ConsoleKeyInfo Move;
-                            Console.SetCursorPosition(XBall, YBall);
-                            Move = Console.ReadKey(true);
-                            switch (Move.Key)
-                            {
-                                case ConsoleKey.UpArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                YBall--;
-                                    Console.SetCursorPosition(XBall, YBall);
-                                    break;
-                                case ConsoleKey.DownArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                YBall++;
-                                    Console.SetCursorPosition(XBall, YBall);
-                                    break;
-                                case ConsoleKey.LeftArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                XBall--;
-                                    Console.SetCursorPosition(XBall, YBall);
-                                    break;
-                                case ConsoleKey.RightArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                XBall++;
-                                    Console.SetCursorPosition(XBall, YBall);
-                                    break;
-                            }
-                            ball.Writeball();
-
+                            GeneralPositionList[XBall, YBall] = true;
+                            ball.Writeball(ref XBall, ref YBall);
+                            Points++;
                         }
-                        while (GeneralPositionList[XBall, YBall] != true);
+                        Console.BackgroundColor = ConsoleColor.Black;// הפיכת צבע המסך חזרה לשחור קונסול
+                        Countshapes++;
+                        Trys = 0;
                     }
-                    catch (IndexOutOfRangeException)
+                    catch// במידה ועבר את הגבולות
                     {
+                        Countshapes++;
+                        Trys = 0;
                         continue;
                     }
-                        Console.Clear();
                 }
-                else // בכל סיבוב שהוא לא הסיבוב הראשון
-                {
-                    for (int i = 0; i < GeneralPositionList.GetLength(0); i++)// איפוס מיקומים על הלוח
-                    {
-                        for (int k = 0; k < GeneralPositionList.GetLength(1); k++)
-                        {
-                            GeneralPositionList[i, k] = false;
-                        }
-                    }
-                    int rollShape = Rand.Next(0, 3);
-                    Shapelistgame.Add(ShapelistStart[rollShape]);
-                    Countshapes++;
-                    foreach (var shape in Shapelistgame)
-                    {
-                        shape.GenerateShapes();
-                        for (int k = 0; k < shape.Shapeposition.GetLength(0); k++)
-                        {
-                            for (int j = 0; j < shape.Shapeposition.GetLength(1); j++)
-                            {
-                                if (shape.Shapeposition[k, j] == true)
-                                {
-                                    GeneralPositionList[k, j] = true;
-                                }
-
-                            }
-                        }
-                    }
-                    XBall = Rand.Next(0, 80);
-                    YBall = Rand.Next(0, 25);
-
-                    do
-                    {
-                        ConsoleKeyInfo Move;
-                        Console.SetCursorPosition(XBall, YBall);
-                        ball.Writeball();
-                        Move = Console.ReadKey(true);
-                        switch (Move.Key)
-                        {
-                            case ConsoleKey.UpArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                YBall--;
-                                Console.SetCursorPosition(XBall, YBall);
-                                break;
-                            case ConsoleKey.DownArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                YBall++;
-                                Console.SetCursorPosition(XBall, YBall);
-                                break;
-                            case ConsoleKey.LeftArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                XBall--;
-                                Console.SetCursorPosition(XBall, YBall);
-                                break;
-                            case ConsoleKey.RightArrow:
-                                GeneralPositionList[XBall, YBall] = true;
-                                XBall++;
-                                Console.SetCursorPosition(XBall, YBall);
-                                break;
-
-                        }
-                        ball.Writeball();
-
-                    }
-                    while (GeneralPositionList[XBall, YBall] != true);
-                    Console.Clear();
-                }
-                Round++;
+            }
+            if (Countshapes >= 15 || Trys >= 30)/// לאחר סיום המשחק הצגה והדפסת הנקודות על המסך
+            {
+                Console.Clear();
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine($"This is the of the game\ncongratulation your points is:{Points}");
             }
         }
     }
 }
+

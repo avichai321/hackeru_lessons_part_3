@@ -64,13 +64,19 @@ namespace test
                         Console.SetCursorPosition(XBall, YBall);
                         Console.BackgroundColor = ConsoleColor.Blue;
                         Console.ForegroundColor = ConsoleColor.White;
-                        Console.Write(ball.Thechar);
+                        Console.Write(ball.Thechar);// הדפסה ראשונית של הכדור על המסך
+                        if(GeneralPositionList[XBall, YBall] == true)// במידה והכדור נפל על צורה
+                        {
+                            Trys++;
+                            continue;
+                        }
                         while (GeneralPositionList[XBall, YBall] != true)// ווידוי שהכדור לא נופל על צורה 
                         {
                             GeneralPositionList[XBall, YBall] = true;
                             ball.Writeball(ref XBall, ref YBall);
                             Points++;
                         }
+                        //במידה והכל עבר חלק
                         Console.BackgroundColor = ConsoleColor.Black;// הפיכת צבע המסך חזרה לשחור קונסול
                         Countshapes++;
                         Trys = 0;

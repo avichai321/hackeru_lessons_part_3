@@ -4,7 +4,7 @@ using System.Text;
 
 namespace test
 {
-    interface BasicShape
+    interface IBasicShape
     {
         Random Rand { get; set; }// המשתנה שמשמש לקבוע אקראיות 
         char Thechar { get; set; }// התו שיודפס
@@ -14,7 +14,7 @@ namespace test
 
     }
     
-    class Rectangle :  BasicShape
+    class Rectangle :  IBasicShape
     {
         public Random Rand { get; set; } = new Random();
         public char Thechar { get; set; } = '#';
@@ -59,7 +59,7 @@ namespace test
 
     }
     
-    class Line :  BasicShape
+    class Line :  IBasicShape
     {
         public Random Rand { get; set; } = new Random();
         public char Thechar { get; set; } = '#';
@@ -95,7 +95,7 @@ namespace test
 
     }
     
-    class Square :  BasicShape
+    class Square :  IBasicShape
     {
         public Random Rand { get; set; } = new Random();
         public char Thechar { get; set; } = '#';
@@ -139,7 +139,7 @@ namespace test
 
 
     }
-    class Triangle : BasicShape
+    class Triangle : IBasicShape
     {
         public Random Rand { get; set; } = new Random();
         public char Thechar { get; set; } = '#';

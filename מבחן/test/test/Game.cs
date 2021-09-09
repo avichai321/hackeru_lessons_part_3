@@ -8,8 +8,8 @@ namespace test
     {
         public bool[,] GeneralPositionList { get; private set; } = new bool[81, 26];//  מערך המשחק השלם
         private Random Rand1 { get; set; } = new Random();// יצירת ההגרלה במשחק
-        private List<BasicShape> ShapelistStart = new List<BasicShape>(4);
-        public List<BasicShape> Shapelistgame { get; set; } = new List<BasicShape>(15); // רשימה שמרכזת את הצורות במשחק
+        private List<IBasicShape> ShapelistStart = new List<IBasicShape>(4);
+        public List<IBasicShape> Shapelistgame { get; set; } = new List<IBasicShape>(15); // רשימה שמרכזת את הצורות במשחק
         public int Countshapes { get; set; }// מספר הצורות במשחק
         public int Trys { get; set; } = 0;//נסיונות לבניית לוח
         public bool CheckShape { get; set; }// מאפיין שבודק אם הצורות חופפות או לא

@@ -29,12 +29,13 @@ namespace test
         {
             Console.SetWindowSize(81, 26);
             int XBall, YBall;
-
             Ball ball = new Ball();
             while (Countshapes != 15 && Trys != 30)// תנאי סף להמשך המשחק
             {
+                
                 GeneralPositionList.CleanBoolArray();
                 Console.Clear();
+                
                 Console.BackgroundColor = ConsoleColor.Black;
                 for (int i = 0; i < Countshapes; i++)// יצירת הצורות
                 {
@@ -62,7 +63,7 @@ namespace test
                         XBall = Rand1.Next(1, 79);// הגרלת מיקום הכדור על ציר האיקס
                         YBall = Rand1.Next(1, 24);// הגרלת מיקום הכדור על ציר הוואי
                         Console.SetCursorPosition(XBall, YBall);
-                        Console.BackgroundColor = ConsoleColor.Blue;
+                            
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.Write(ball.Thechar);// הדפסה ראשונית של הכדור על המסך
                         if(GeneralPositionList[XBall, YBall] == true)// במידה והכדור נפל על צורה

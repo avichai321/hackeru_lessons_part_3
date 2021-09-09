@@ -20,19 +20,28 @@ namespace test
             switch (Move.Key)
             {
                 case ConsoleKey.UpArrow:
+                    Console.SetCursorPosition(X, Y);
+                    Console.Write(Thechar);
                     Y--;
                     break;
                 case ConsoleKey.DownArrow:
+                    Console.SetCursorPosition(X, Y);
+                    Console.Write(Thechar);
                     Y++;
                     break;
                 case ConsoleKey.LeftArrow:
+                    Console.SetCursorPosition(X, Y);
+                    Console.Write(Thechar);
                     X--;
                     break;
                 case ConsoleKey.RightArrow:
+                    Console.SetCursorPosition(X, Y);
+                    Console.Write(Thechar);
                     X++;
                     break;
 
             }
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.SetCursorPosition(X, Y);
             Console.Write(Thechar);
 

@@ -29,8 +29,8 @@ namespace test
             Console.ForegroundColor = (ConsoleColor)Rand.Next(7, 14);// מגריל צבעים לצורות
             int Rlength = Rand.Next(3, 10);//אורך המלבן
             int Rwidth = Rand.Next(2, 10);//רוחב המלבן
-            LocationLeftTop = Rand.Next(1, 80);//מיקום תחילת הדפסת הצורה ציר האיקס 
-            int shapepositiontop = Rand.Next(1, 25);//מיקום תחילת הדפסת הצורה ציר הוואי
+            LocationLeftTop = Rand.Next(1, 79);//מיקום תחילת הדפסת הצורה ציר האיקס 
+            int shapepositiontop = Rand.Next(1, 24);//מיקום תחילת הדפסת הצורה ציר הוואי
             for (int i = 0; i < Rlength; i++)
             {
                 Console.SetCursorPosition(LocationLeftTop, shapepositiontop + i);// מיקום אקראי להדפסה

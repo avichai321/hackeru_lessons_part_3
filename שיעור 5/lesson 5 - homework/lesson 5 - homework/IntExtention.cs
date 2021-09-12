@@ -36,7 +36,7 @@ namespace lesson_5___homework
             {
                 return "fifthteen";
             }
-            if (number > 20)
+            if (number <20)
             {
                 return $"{numberaha[number - 9]} {numbersasa[0]}";
             }

@@ -5,7 +5,6 @@ D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Co
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\bin\Debug\net5.0-windows\lesson 5 - homework.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\bin\Debug\net5.0-windows\ref\lesson 5 - homework.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\bin\Debug\net5.0-windows\lesson 5 - homework.pdb
-D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.csprojAssemblyReference.cache
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson_5___homework.Form1.resources
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.csproj.GenerateResource.cache
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Co
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\ref\lesson 5 - homework.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.pdb
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.genruntimeconfig.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 5\lesson 5 - homework\lesson 5 - homework\obj\Debug\net5.0-windows\lesson 5 - homework.csproj.AssemblyReference.cache

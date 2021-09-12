@@ -4,38 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lesson_5___homework
+namespace ConsoleApp1
 {
-    static class StringExtenstion
+   static class stringexten
     {
-        public static bool HasLowerChars(this string word)
-        {
-            for (int i = 0; i < word.Length; i++)
-            {
-                if (word[i].ToString()== word[i].ToString().ToLower())
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-        public static string ReverseCase(this string exword)
-        {
-            string revword = "";
-            for (int i = 0; i < exword.Length; i++)
-            {
-                if (exword[i].ToString() == exword[i].ToString().ToLower())
-                {
-                    revword+= exword[i].ToString().ToUpper();
-                }
-                else
-                {
-                    revword += exword[i].ToString().ToLower();
-                }
-            }
-            return revword;
-        }
-
         public static bool IsValidIsraeliIdNumber(this string id)
         {
             int sum = 0;
@@ -82,3 +54,4 @@ namespace lesson_5___homework
         }
     }
 }
+

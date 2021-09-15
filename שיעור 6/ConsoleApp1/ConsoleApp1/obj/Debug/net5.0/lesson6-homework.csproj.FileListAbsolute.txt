@@ -1,0 +1,16 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.runtimeconfig.dev.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ref\lesson6-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\lesson6-homework.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ref\lesson6-homework.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.genruntimeconfig.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 6\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\lesson6-homework.csproj.AssemblyReference.cache

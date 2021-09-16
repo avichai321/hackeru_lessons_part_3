@@ -24,7 +24,7 @@ namespace lesson7__homework__enumerators
         {
             foreach (var student in Students)
             {
-                if (student.Grade > 10)
+                if (student.Grade > 100)
                 { 
                     yield return student.Name;
                 }

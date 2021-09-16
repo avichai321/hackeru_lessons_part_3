@@ -34,7 +34,7 @@ namespace lesson7__homework__enumerators
             #endregion
 
             #region 4
-            List<Student> studentlist = new List<Student>() { new Student("avi",50), new Student("bobi", 5), new Student("naruto",90) };
+            List<Student> studentlist = new List<Student>() { new Student("avi",95), new Student("bobi", 100), new Student("naruto",120) };
             foreach (var studentGrade in new StudentsWhoParcticeALot(studentlist))
             {
                 Console.WriteLine(studentGrade);

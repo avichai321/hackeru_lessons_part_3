@@ -10,18 +10,22 @@ namespace lesson7__homework__enumerators
     class NumbersHezkacs : IEnumerable<double>
     {
 
-        public double Num { get; private set; }
-       
+        public double Num { get;  set; }
+        public int Tempnum { get; set; }
+
         public NumbersHezkacs(int num)
         {
             Num = num;
+            Tempnum = num;
         }
 
         public IEnumerator<double> GetEnumerator()
         {
+            
             for (int i = 0; i <10; i++)
             {
-                Num = Num * Num;
+                
+                Num = Num * Tempnum;
                 yield return Num;
             }
         }

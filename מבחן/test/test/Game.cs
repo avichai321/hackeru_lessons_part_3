@@ -15,6 +15,7 @@ namespace test
         public bool CheckShape { get; set; }// מאפיין שבודק אם הצורות חופפות או לא
         public int Points { get; set; }// מספר הנקודות שהשחקן מרוויח במשחק
 
+        public string StartOver { get; set; }// משתנה שבודק אם השחקן רוצה לשחק שוב
         public Game()
         {
             Countshapes = Rand1.Next(3, 6);
@@ -92,10 +93,22 @@ namespace test
             }
             if (Countshapes >= 15 || Trys >= 30)/// לאחר סיום המשחק הצגה והדפסת הנקודות על המסך
             {
+
                 Console.Clear();
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"This is the of the game\ncongratulation your points is:{Points}");
+                Console.WriteLine("Are you want to play again Y/N\nto countinue press Y or any key top end press N or n");
+                StartOver = Console.ReadLine();
+                if (StartOver == "N" || StartOver == "n")
+                {
+                    Gamestart();
+                }
+                else
+                {
+                    Console.WriteLine("Bye Bye");
+                }
+
             }
         }
     }

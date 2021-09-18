@@ -28,6 +28,8 @@ namespace test
 
         public void Gamestart()
         {
+            Points = 0;
+            Countshapes = Rand1.Next(3, 6);
             Console.SetWindowSize(81, 26);
             int XBall, YBall;
             Ball ball = new Ball();
@@ -49,9 +51,7 @@ namespace test
                     CheckShape = GeneralPositionList.AddInnerArrayToMainArray(shape.Shapeposition);// בדיקה אם הצורות חופפות
                     if (CheckShape == false)// במקרה והצורות חופפות
                     {
-                        Console.Clear();
                         Shapelistgame.Clear();
-                        GeneralPositionList.CleanBoolArray();
                         Trys++;
                         break;
                     }
@@ -97,15 +97,32 @@ namespace test
                 Console.Clear();
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine($"This is the of the game\ncongratulation your points is:{Points}");
-                Console.WriteLine("Are you want to play again Y/N\nto countinue press Y or any key top end press N or n");
+                Console.SetCursorPosition(24, 10);
+                Console.WriteLine("This is the of the game!");
+                Console.SetCursorPosition(24, 11);
+                Console.WriteLine($"Congratulation your points is:{Points}");
+                Console.SetCursorPosition(24, 12);
+                Console.WriteLine("Are you want to play again y/n");
+                Console.SetCursorPosition(54, 12);
+                Console.CursorVisible = true;
                 StartOver = Console.ReadLine();
-                if (StartOver == "N" || StartOver == "n")
+                while(StartOver!="y" && StartOver!="n")
+                {
+                    Console.Clear();
+                    Console.SetCursorPosition(24, 10);
+                    Console.WriteLine("Wrong choice please enter y/n");
+                    Console.SetCursorPosition(24, 11);
+                    StartOver = Console.ReadLine();
+                }
+                if (StartOver == "y")
                 {
                     Gamestart();
+                    return;//מוצב כדי שהפונקציה אחרי שבוצעה פשוט תפסיק את המשחק אם השחקן בחר להפסיק
                 }
                 else
                 {
+                    Console.Clear();
+                    Console.SetCursorPosition(35, 9);
                     Console.WriteLine("Bye Bye");
                 }
 

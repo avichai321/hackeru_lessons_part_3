@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "lesson7.ClassLibrary.DB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/lesson7.ClassLibrary.DB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lesson7.ClassLibrary.DB.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "lesson7.ClassLibrary.DB/1.0.0": {
+      "type": "project",
+      "path": "../lesson7.ClassLibrary/lesson7.ClassLibrary.DB.csproj",
+      "msbuildProject": "../lesson7.ClassLibrary/lesson7.ClassLibrary.DB.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "lesson7.ClassLibrary.DB >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DAHAN\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\לימודים דוטנט האקריו\\Object Oriented Programming- C# Net Core\\hackeru_lessons_part_3\\שיעור 7\\lesson7-homework-UI WinForms\\lesson7.ClassLibrary\\lesson7.ClassLibrary.DB.csproj": {
+              "projectPath": "D:\\לימודים דוטנט האקריו\\Object Oriented Programming- C# Net Core\\hackeru_lessons_part_3\\שיעור 7\\lesson7-homework-UI WinForms\\lesson7.ClassLibrary\\lesson7.ClassLibrary.DB.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

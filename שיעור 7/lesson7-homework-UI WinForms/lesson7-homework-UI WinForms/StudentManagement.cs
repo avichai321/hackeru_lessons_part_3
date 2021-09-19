@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace lesson7_homework_UI_WinForms
 {
-    public partial class StudentUserControl : UserControl
+    public partial class StudentManagement : Form
     {
-        public StudentUserControl()
+        public StudentManagement()
         {
             InitializeComponent();
+            
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            StudentManagePanel.Controls.Add(new AddStudent());
         }
     }
 }

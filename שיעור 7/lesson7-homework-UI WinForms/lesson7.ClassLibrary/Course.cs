@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lesson7_homework_UI_WinForms
+namespace lesson7.ClassLibrary.DB
 {
-    class Courses
+   public class Courses
     {
+
         public int Id { get; set; }
-        public string Name {  get; set; }
+        public string Name { get; set; }
         public DateTime StartDate { get; set; }
         public int NumberOfMeetings { get; set; }
+        public Courses(string name)
+        {
+            Name = name;
+        }
     }
 }

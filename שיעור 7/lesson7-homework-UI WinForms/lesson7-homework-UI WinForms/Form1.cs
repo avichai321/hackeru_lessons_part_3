@@ -20,7 +20,8 @@ namespace lesson7_homework_UI_WinForms
 
         private void actionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            StudentManagement studentAdd= new StudentManagement();
+            studentAdd.Show(this);
         }
     }
 }

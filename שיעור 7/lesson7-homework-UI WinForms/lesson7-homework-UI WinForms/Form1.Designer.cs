@@ -65,7 +65,7 @@ namespace lesson7_homework_UI_WinForms
             // 
             this.actionsToolStripMenuItem.Name = "actionsToolStripMenuItem";
             this.actionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.actionsToolStripMenuItem.Text = "Actions";
+            this.actionsToolStripMenuItem.Text = "Managment";
             this.actionsToolStripMenuItem.Click += new System.EventHandler(this.actionsToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
@@ -96,9 +96,10 @@ namespace lesson7_homework_UI_WinForms
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(994, 483);
+            this.panel1.Size = new System.Drawing.Size(994, 489);
             this.panel1.TabIndex = 2;
             // 
             // Form1

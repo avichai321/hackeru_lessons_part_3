@@ -1,9 +1,9 @@
+using lesson7.ClassLibrary.DB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 
 namespace lesson7_homework_UI_WinForms
 {
@@ -19,6 +19,8 @@ namespace lesson7_homework_UI_WinForms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            
+
         }
     }
 }

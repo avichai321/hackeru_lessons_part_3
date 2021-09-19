@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace lesson7_homework_UI_WinForms
 {
-    public partial class Form1 : Form
+    public partial class StudentUserControl : UserControl
     {
-        public Form1()
+        public StudentUserControl()
         {
             InitializeComponent();
-        }
-
-        private void actionsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

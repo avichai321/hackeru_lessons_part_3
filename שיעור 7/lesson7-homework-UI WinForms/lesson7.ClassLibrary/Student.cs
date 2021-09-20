@@ -8,7 +8,8 @@ namespace lesson7.ClassLibrary.DB
 {
     public class Student
     {
-        public int Id { get; set; }
+
+        public string Id { get; set; }
         public string FirstName {  get; set; }
         public string LastName {  get; set; }
         public string PhoneNumber {  get; set; }
@@ -17,6 +18,20 @@ namespace lesson7.ClassLibrary.DB
         public string City {  get; set; }
         public int PriceToPay { get; set; }
         public int PriceWhoPaid { get; set; }
-        public List<Courses> CoursesWhoParticipant { get; set; }
+        public List<Courses> CoursesWhoParticipant { get; set; }= new List<Courses>();
+        public Student(string id, string firstName, string lastName, string phoneNumber, DateTime dOB, string email, string city)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            PhoneNumber = phoneNumber;
+            DOB = dOB;
+            Email = email;
+            City = city;
+        }
+        public override string ToString()
+        {
+            return FirstName + " " + LastName;
+        }
     }
 }

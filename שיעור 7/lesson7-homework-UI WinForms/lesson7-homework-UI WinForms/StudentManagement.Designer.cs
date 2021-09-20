@@ -45,7 +45,7 @@ namespace lesson7_homework_UI_WinForms
             this.StudentManagePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.StudentManagePanel.Location = new System.Drawing.Point(0, 0);
             this.StudentManagePanel.Name = "StudentManagePanel";
-            this.StudentManagePanel.Size = new System.Drawing.Size(800, 450);
+            this.StudentManagePanel.Size = new System.Drawing.Size(745, 442);
             this.StudentManagePanel.TabIndex = 0;
             // 
             // toolStrip1
@@ -56,7 +56,7 @@ namespace lesson7_homework_UI_WinForms
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(745, 25);
             this.toolStrip1.TabIndex = 32;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -92,7 +92,7 @@ namespace lesson7_homework_UI_WinForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(745, 442);
             this.Controls.Add(this.StudentManagePanel);
             this.Name = "StudentManagement";
             this.Text = "StudentManagement";

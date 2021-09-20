@@ -17,5 +17,9 @@ namespace lesson7.ClassLibrary.DB
         {
             Name = name;
         }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

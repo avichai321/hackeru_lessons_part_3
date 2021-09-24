@@ -1,0 +1,25 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.runtimeconfig.dev.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\ref\lesson7-homework-UI WinForms.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7-homework-UI WinForms.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7.ClassLibrary.DB.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\bin\Debug\net5.0-windows\lesson7.ClassLibrary.DB.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.AddStudent.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.Form1.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.Properties.Resources.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.StudentList.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.StudentManagement.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.csproj.GenerateResource.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\ref\lesson7-homework-UI WinForms.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7-homework-UI WinForms.genruntimeconfig.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7-homework-UI WinForms\obj\Debug\net5.0-windows\lesson7_homework_UI_WinForms.SearchOrDeleteStudent.resources

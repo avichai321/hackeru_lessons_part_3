@@ -10,3 +10,15 @@ D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Co
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7.ClassLibrary\obj\Debug\net5.0\ref\lesson7.ClassLibrary.DB.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\UI-WinForms\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\bin\Debug\net5.0\lesson7.ClassLibrary.DB.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\bin\Debug\net5.0\lesson7.ClassLibrary.DB.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\bin\Debug\net5.0\ref\lesson7.ClassLibrary.DB.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\bin\Debug\net5.0\lesson7.ClassLibrary.DB.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\ref\lesson7.ClassLibrary.DB.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 7\lesson7-homework- UI WinForm\lesson7.ClassLibrary\obj\Debug\net5.0\lesson7.ClassLibrary.DB.pdb

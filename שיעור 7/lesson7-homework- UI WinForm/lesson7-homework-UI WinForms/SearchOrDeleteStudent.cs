@@ -16,18 +16,36 @@ namespace lesson7_homework_UI_WinForms
         public SearchOrDeleteStudent()
         {
             InitializeComponent();
+            foreach (var course in MyDB.CourseList)
+            {
+                coursesAddCheckboxlist.Items.Add(course);
+            }
         }
 
         private void searchStudentButton_Click(object sender, EventArgs e)
         {
-            bool Exist=false;
+            bool Exist = false;
             foreach (var student in MyDB.StudentList)
             {
-                if (student.Id== searchStudentTextBox.Text||student.LastName== searchStudentTextBox.Text )
+                if (student.Id == searchStudentTextBox.Text || student.LastName == searchStudentTextBox.Text)
                 {
-                    StudentpropertyGrid.SelectedObject= student;
-                    searchStudentTextBox.ReadOnly=true;
-                    Exist = true;
+                    StudentpropertyGrid.SelectedObject = student;
+                    searchStudentTextBox.ReadOnly = true;
+                    label2.Visible = true;
+                    coursesAddCheckboxlist.Visible = true;
+                    Exist = true;                
+                    foreach (var item in student.CoursesWhoParticipant)
+                    {
+                        int count = 0;
+                        foreach (var item1 in coursesAddCheckboxlist.Items)
+                        {
+                            if (item.Name == item1.ToString())
+                            {
+                                coursesAddCheckboxlist.GetItemCheckState(count);
+                            }
+                            count++;
+                        }
+                    }
                     break;
                 }
             }
@@ -47,18 +65,55 @@ namespace lesson7_homework_UI_WinForms
                     break;
                 }
             }
-            StudentpropertyGrid.SelectedObject= null;
+            StudentpropertyGrid.SelectedObject = null;
             searchStudentTextBox.ReadOnly = false;
+            coursesAddCheckboxlist.Visible = false;
+            label2.Visible = false;
             MessageBox.Show("The Student has Deleated");
         }
 
         private void SaveChangesStudentButton_Click(object sender, EventArgs e)
         {
+            coursesAddCheckboxlist.Visible=false;
+            label2.Visible=false;
             StudentpropertyGrid.SelectedObject = null;
             searchStudentTextBox.ReadOnly = false;
             MessageBox.Show("The Student has Updated");
         }
 
-       
+        private void StudentpropertyGrid_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StudentpropertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
+        {
+
+        }
+
+        private void coursesAddCheckboxlist_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            foreach (var student in MyDB.StudentList)
+            {
+                if (student.Id == searchStudentTextBox.Text || student.LastName == searchStudentTextBox.Text)
+                {
+                    int price = 0;
+                    foreach (var course in coursesAddCheckboxlist.CheckedItems)
+                    {
+                        foreach (var typeofcourse in MyDB.CourseList)
+
+                        {
+                            if (course.ToString() == typeofcourse.Name)
+                            {
+                                price += Convert.ToInt32(typeofcourse.PriceForCourse);
+                            }
+                        }
+                    }
+                    student.PriceToPay = price;
+                    break;
+                }
+
+            }
+        }
     }
 }

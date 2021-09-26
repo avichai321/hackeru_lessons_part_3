@@ -222,6 +222,7 @@ namespace lesson7_homework_UI_WinForms
             this.priceTextBox.Location = new System.Drawing.Point(143, 291);
             this.priceTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.priceTextBox.Name = "priceTextBox";
+            this.priceTextBox.ReadOnly = true;
             this.priceTextBox.Size = new System.Drawing.Size(162, 23);
             this.priceTextBox.TabIndex = 51;
             // 

@@ -14,6 +14,10 @@ namespace lesson7.ClassLibrary.DB
         public DateTime StartDate { get; set; }
         public int NumberOfMeetings { get; set; }
         public int PriceForCourse { get; set; }
+        public Courses()
+        {
+
+        }
         public Courses(string name,int priceForCourse)
         {
             Name = name;

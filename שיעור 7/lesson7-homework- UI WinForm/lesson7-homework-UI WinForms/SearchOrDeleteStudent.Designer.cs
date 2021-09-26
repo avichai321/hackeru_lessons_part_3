@@ -35,6 +35,8 @@ namespace lesson7_homework_UI_WinForms
             this.searchStudentButton = new System.Windows.Forms.Button();
             this.SaveChangesStudentButton = new System.Windows.Forms.Button();
             this.DeleteStudentButton = new System.Windows.Forms.Button();
+            this.coursesAddCheckboxlist = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // StudentpropertyGrid
@@ -43,6 +45,8 @@ namespace lesson7_homework_UI_WinForms
             this.StudentpropertyGrid.Name = "StudentpropertyGrid";
             this.StudentpropertyGrid.Size = new System.Drawing.Size(247, 360);
             this.StudentpropertyGrid.TabIndex = 0;
+            this.StudentpropertyGrid.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.StudentpropertyGrid_PropertyValueChanged);
+            this.StudentpropertyGrid.Click += new System.EventHandler(this.StudentpropertyGrid_Click);
             // 
             // label1
             // 
@@ -90,10 +94,32 @@ namespace lesson7_homework_UI_WinForms
             this.DeleteStudentButton.UseVisualStyleBackColor = true;
             this.DeleteStudentButton.Click += new System.EventHandler(this.DeleteStudentButton_Click);
             // 
+            // coursesAddCheckboxlist
+            // 
+            this.coursesAddCheckboxlist.FormattingEnabled = true;
+            this.coursesAddCheckboxlist.Location = new System.Drawing.Point(116, 259);
+            this.coursesAddCheckboxlist.Name = "coursesAddCheckboxlist";
+            this.coursesAddCheckboxlist.Size = new System.Drawing.Size(234, 130);
+            this.coursesAddCheckboxlist.TabIndex = 6;
+            this.coursesAddCheckboxlist.Visible = false;
+            this.coursesAddCheckboxlist.SelectedIndexChanged += new System.EventHandler(this.coursesAddCheckboxlist_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(166, 232);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(124, 15);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Delete or Add Courses";
+            this.label2.Visible = false;
+            // 
             // SearchOrDeleteStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.coursesAddCheckboxlist);
             this.Controls.Add(this.DeleteStudentButton);
             this.Controls.Add(this.SaveChangesStudentButton);
             this.Controls.Add(this.searchStudentButton);
@@ -115,5 +141,7 @@ namespace lesson7_homework_UI_WinForms
         private System.Windows.Forms.Button searchStudentButton;
         private System.Windows.Forms.Button SaveChangesStudentButton;
         private System.Windows.Forms.Button DeleteStudentButton;
+        private System.Windows.Forms.CheckedListBox coursesAddCheckboxlist;
+        private System.Windows.Forms.Label label2;
     }
 }

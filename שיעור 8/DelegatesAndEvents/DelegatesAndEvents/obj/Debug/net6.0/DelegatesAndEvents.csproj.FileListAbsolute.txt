@@ -1,0 +1,16 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\ref\DelegatesAndEvents.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.ImplicitNamespaceImports.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\ref\DelegatesAndEvents.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.genruntimeconfig.cache

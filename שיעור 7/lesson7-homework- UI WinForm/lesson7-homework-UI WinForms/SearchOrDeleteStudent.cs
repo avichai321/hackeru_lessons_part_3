@@ -33,7 +33,7 @@ namespace lesson7_homework_UI_WinForms
                     searchStudentTextBox.ReadOnly = true;
                     label2.Visible = true;
                     coursesAddCheckboxlist.Visible = true;
-                    Exist = true;                
+                    Exist = true;
                     foreach (var item in student.CoursesWhoParticipant)
                     {
                         int count = 0;
@@ -41,7 +41,7 @@ namespace lesson7_homework_UI_WinForms
                         {
                             if (item.Name == item1.ToString())
                             {
-                                coursesAddCheckboxlist.GetItemCheckState(count);
+                                coursesAddCheckboxlist.GetItemChecked(count);
                             }
                             count++;
                         }
@@ -74,8 +74,26 @@ namespace lesson7_homework_UI_WinForms
 
         private void SaveChangesStudentButton_Click(object sender, EventArgs e)
         {
-            coursesAddCheckboxlist.Visible=false;
-            label2.Visible=false;
+            foreach (var student in MyDB.StudentList)
+            {
+                if (student.Id == searchStudentTextBox.Text || student.LastName == searchStudentTextBox.Text)
+                {
+                    student.CoursesWhoParticipant.Clear();
+                    foreach (var course in coursesAddCheckboxlist.CheckedItems)
+                    {
+                        foreach (var typeofcourse in MyDB.CourseList)
+                        {
+                            if (course.ToString() == typeofcourse.Name)
+                            {
+
+                                student.CoursesWhoParticipant.Add(typeofcourse);
+                            }
+                        }
+                    }
+                }
+            }
+            coursesAddCheckboxlist.Visible = false;
+            label2.Visible = false;
             StudentpropertyGrid.SelectedObject = null;
             searchStudentTextBox.ReadOnly = false;
             MessageBox.Show("The Student has Updated");

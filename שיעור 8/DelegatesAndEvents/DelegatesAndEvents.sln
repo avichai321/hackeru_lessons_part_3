@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{D7C83C33-667A-44F0-96C4-2BB3AB4366EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{D7C83C33-667A-44F0-96C4-2BB3AB4366EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEventsWinForm", "DelegateAndEventsWinForm\DelegateAndEventsWinForm.csproj", "{E0C36898-66BD-4326-85A4-5BCCA2FC8EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAndEventsWinForm", "DelegateAndEventsWinForm\DelegateAndEventsWinForm.csproj", "{E0C36898-66BD-4326-85A4-5BCCA2FC8EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "targilim 5_10", "targil 5\targilim 5_10.csproj", "{4777F147-DD69-4B76-ADA9-A4E59C779C79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E0C36898-66BD-4326-85A4-5BCCA2FC8EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0C36898-66BD-4326-85A4-5BCCA2FC8EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0C36898-66BD-4326-85A4-5BCCA2FC8EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4777F147-DD69-4B76-ADA9-A4E59C779C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4777F147-DD69-4B76-ADA9-A4E59C779C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4777F147-DD69-4B76-ADA9-A4E59C779C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4777F147-DD69-4B76-ADA9-A4E59C779C79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

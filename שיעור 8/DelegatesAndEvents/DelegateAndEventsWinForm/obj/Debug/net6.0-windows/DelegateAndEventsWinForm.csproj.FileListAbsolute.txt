@@ -4,7 +4,6 @@ D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Co
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\bin\Debug\net6.0-windows\DelegateAndEventsWinForm.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\bin\Debug\net6.0-windows\ref\DelegateAndEventsWinForm.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\bin\Debug\net6.0-windows\DelegateAndEventsWinForm.pdb
-D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\obj\Debug\net6.0-windows\DelegateAndEventsWinForm.csproj.AssemblyReference.cache
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\obj\Debug\net6.0-windows\DelegateAndEventsWinForm.Form1.resources
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\obj\Debug\net6.0-windows\DelegateAndEventsWinForm.csproj.GenerateResource.cache
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 8\DelegatesAndEvents\DelegateAndEventsWinForm\obj\Debug\net6.0-windows\DelegateAndEventsWinForm.GeneratedMSBuildEditorConfig.editorconfig

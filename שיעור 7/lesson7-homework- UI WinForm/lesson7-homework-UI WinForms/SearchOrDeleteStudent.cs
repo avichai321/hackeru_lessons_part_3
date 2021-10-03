@@ -37,11 +37,11 @@ namespace lesson7_homework_UI_WinForms
                     foreach (var item in student.CoursesWhoParticipant)
                     {
                         int count = 0;
-                        foreach (var item1 in coursesAddCheckboxlist.Items)
+                        foreach (var item1 in coursesAddCheckboxlist.CheckedIndices)
                         {
                             if (item.Name == item1.ToString())
                             {
-                                coursesAddCheckboxlist.GetItemChecked(count);
+                                coursesAddCheckboxlist.SetItemChecked(count,true);
                             }
                             count++;
                         }

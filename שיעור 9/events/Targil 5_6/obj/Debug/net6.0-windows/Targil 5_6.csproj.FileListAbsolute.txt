@@ -1,0 +1,23 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\events.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\events.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\events.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\Targil 5_6.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\Targil 5_6.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\Targil 5_6.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\Targil 5_6.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\ref\Targil 5_6.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\Targil 5_6.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\events.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\bin\Debug\net6.0-windows\events.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil_5_6.Form1.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.csproj.GenerateResource.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.ImplicitNamespaceImports.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\ref\Targil 5_6.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.genruntimeconfig.cache

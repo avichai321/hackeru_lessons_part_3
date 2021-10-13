@@ -69,18 +69,27 @@ namespace events
             #endregion
 
             #region 3
-            while (StudentList.liststudent.Count != 15)
-            {
-                Console.WriteLine("Enter Name: ");
-                StudentList.liststudent.Add(new Student(Console.ReadLine()));
-                if (StudentList.liststudent.Count % 5 == 0)
-                {
-                    Discount();
-                }
-            }
+            //while (StudentList.liststudent.Count != 15)
+            //{
+            //    Console.WriteLine("Enter Name: ");
+            //    StudentList.liststudent.Add(new Student(Console.ReadLine()));
+            //    if (StudentList.liststudent.Count % 5 == 0)
+            //    {
+            //        Discount();
+            //    }
+            //}
 
 
             #endregion
+
+            #region 4
+            //var point = new Point(8);
+            //var square = new Square(5);
+
+            //Console.WriteLine("Enter location you want to check");
+            //Shape.Shapechecker(square, int.Parse(Console.ReadLine()));
+            #endregion
+
         }
     }
 }

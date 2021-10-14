@@ -5,8 +5,8 @@ using System.Linq;
 namespace events
 {
     public delegate void myDelegateEvent();
-    public delegate void LuckyNumber();
     public delegate void LuckyStudent();
+    public delegate void lucky2();
 
     public class Program
     {
@@ -29,11 +29,13 @@ namespace events
 
         #region 2
 
-        public static void PrintLucky() { Console.WriteLine("Lucky Number Was Entered"); }
-        public static event LuckyNumber LuckyNumberWasEntered = PrintLucky;
+        public  static void PrintLucky() { Console.WriteLine("Lucky Number Was Entered");  }
+        
+        public static event lucky2 LuckyNumberWasEntered= PrintLucky;
         public static void Ex2()
         {
             Console.WriteLine("Enter Number: ");
+
             var number = int.Parse(Console.ReadLine());
             while (number != 999)
             {
@@ -90,6 +92,17 @@ namespace events
             //Shape.Shapechecker(square, int.Parse(Console.ReadLine()));
             #endregion
 
+            #region 7
+
+            LuckyNumber luckyNumber = new LuckyNumber();
+            luckyNumber.LuckyNumberWasEntered += MainTimes;
+            luckyNumber.Ex2();
+            #endregion
+
+        }
+        public static void MainTimes(object sender , int a)
+        {
+            Console.WriteLine($"your trys until now is: {a+1}");
         }
     }
 }

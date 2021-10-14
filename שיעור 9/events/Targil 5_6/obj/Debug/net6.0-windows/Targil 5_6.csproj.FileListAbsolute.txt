@@ -21,3 +21,4 @@ D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Co
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\ref\Targil 5_6.dll
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.pdb
 D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.genruntimeconfig.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 9\events\Targil 5_6\obj\Debug\net6.0-windows\Targil 5_6.csproj.CopyComplete

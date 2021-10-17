@@ -1,0 +1,16 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\Anonymos_methods_lamda_ex.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\Anonymos_methods_lamda_ex.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\Anonymos_methods_lamda_ex.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\Anonymos_methods_lamda_ex.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\ref\Anonymos_methods_lamda_ex.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\bin\Debug\net6.0\Anonymos_methods_lamda_ex.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.ImplicitNamespaceImports.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\ref\Anonymos_methods_lamda_ex.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\Anonymos_methods_lamda_ex\obj\Debug\net6.0\Anonymos_methods_lamda_ex.genruntimeconfig.cache

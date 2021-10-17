@@ -1,0 +1,18 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\targil 4.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\targil 4.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\targil 4.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\targil 4.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\ref\targil 4.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\bin\Debug\net6.0-windows\targil 4.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil_4.Form1.resources
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.csproj.GenerateResource.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.ImplicitNamespaceImports.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\ref\targil 4.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 11\Anonymos_methods_lamda_ex\targil 4\obj\Debug\net6.0-windows\targil 4.genruntimeconfig.cache

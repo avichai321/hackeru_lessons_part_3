@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Anonymos_methods_lamda_ex/1.0.0": {
+        "runtime": {
+          "Anonymos_methods_lamda_ex.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Anonymos_methods_lamda_ex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

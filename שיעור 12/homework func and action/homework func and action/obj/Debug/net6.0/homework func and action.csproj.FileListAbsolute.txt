@@ -14,3 +14,19 @@ C:\Users\DAHAN\source\repos\homework func and action\homework func and action\ob
 C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\ref\homework func and action.dll
 C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.pdb
 C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.genruntimeconfig.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\ref\homework func and action.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.ImplicitNamespaceImports.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\ref\homework func and action.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 12\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.genruntimeconfig.cache

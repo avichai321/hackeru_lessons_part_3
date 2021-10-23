@@ -82,9 +82,10 @@ namespace homework_func_and_action
         static Action<int> NumberOfDigit = (number) =>
          {
              int digits = 0;
+             
              foreach (var item in number.ToString())
              {
-                 digits += Convert.ToInt32(item);
+                 digits += Convert.ToInt32(item.ToString());
              }
              Console.WriteLine($"The sum is {digits}");
          };

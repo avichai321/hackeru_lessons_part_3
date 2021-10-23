@@ -1,0 +1,16 @@
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.exe
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.deps.json
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.runtimeconfig.json
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.dll
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\ref\homework func and action.dll
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\bin\Debug\net6.0\homework func and action.pdb
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.csproj.AssemblyReference.cache
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.AssemblyInfoInputs.cache
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.AssemblyInfo.cs
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.ImplicitNamespaceImports.cs
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.csproj.CoreCompileInputs.cache
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.dll
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\ref\homework func and action.dll
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.pdb
+C:\Users\DAHAN\source\repos\homework func and action\homework func and action\obj\Debug\net6.0\homework func and action.genruntimeconfig.cache

@@ -45,8 +45,8 @@ namespace linq
                           select num*3;
 
             var delegate3 = numbers.Where(number => number > 5 && number % 3 != 0).Select(number => number * 3).ToList();
-            Console.WriteLine("*******************");
             foreach (var item in delegate3) {  Console.WriteLine(item); }
+            Console.WriteLine("*******************");
 
             #endregion
             #endregion
@@ -69,14 +69,14 @@ namespace linq
                 Console.WriteLine(item);
 
             }
-
+            Console.WriteLine("****************");
             #endregion
 
             #region 5
             Func<string, List<string>, List<string>> cityfilter2 = (city, cityslist) =>
             {
                 var querycity = (from citys in cityslist
-                                 where citys.Contains(city)
+                                 where !citys.Contains(city)
                                  select citys).ToList();
                 return querycity;
             };
@@ -86,28 +86,57 @@ namespace linq
                 Console.WriteLine(item);
 
             }
+            Console.WriteLine("**********");
             #endregion
 
             #region 6
-            var query6 = from city in Cityslist
-                         where city.Contains(city)
-                         select city.Take(1);
-            Console.WriteLine(query6);
-
+            var query6 = (from city in Cityslist
+                         where city.Contains("X")
+                         select city).Take(1).ToList();
+            foreach (var item in query6) { Console.WriteLine(item); }
+            Console.WriteLine("*************");
             #endregion
 
             #region 7
-            var query7 = from city in Cityslist
+            var query7 = (from city in Cityslist
                          orderby city descending
-                         select city.Take(3).ToList();
+                         select city).Take(3).ToList();
             foreach (var item in query7)
             {
                 Console.WriteLine(item);
-            }    
+            }
 
             #endregion
             #endregion
 
+            List<City> Cityslist2 = new List<City>();
+
+            Cityslist2.Add(new City(1, "Safed", 10));
+            Cityslist2.Add(new City(2, "TelAviv", 150));
+            Cityslist2.Add(new City(3, "Haifa", 500000));
+            Cityslist2.Add(new City(4, "Beit-Shean", 235000));
+            Cityslist2.Add(new City(5, "tokyo", 26000));
+
+            #region 8
+
+            var query8 = Cityslist2.Where(city=> city.NumberOfPopulation>25000).Select(city1=>city1.ToString()).ToList();
+            foreach (var item in query8) { Console.WriteLine(item);}
+            #endregion
+            Console.WriteLine("*");
+            #region 9
+            var query9 = Cityslist2.Where(city => city.NumberOfPopulation > 25000).Select(city => city.Name).ToList();
+            foreach (var item in query9) { Console.WriteLine(item); }
+            #endregion
+            Console.WriteLine("**********************");
+            #region 10
+            var query10 = Cityslist2.Select(city => new {city.Name, city.IsCity}).ToList();
+            
+
+            foreach (var item in query10)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
 
 
         }

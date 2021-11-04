@@ -1,0 +1,15 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\DirectoryandIo.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\DirectoryandIo.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\DirectoryandIo.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\DirectoryandIo.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\ref\DirectoryandIo.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\bin\Debug\net6.0\DirectoryandIo.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\ref\DirectoryandIo.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\obj\Debug\net6.0\DirectoryandIo.genruntimeconfig.cache

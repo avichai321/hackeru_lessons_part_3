@@ -32,7 +32,7 @@ namespace DirectoryandIo
             #endregion
 
             #region 4
-            Student.ToFixedLength();
+            Student.ListOfFixedlength();
             #endregion
             #region 5
             Student.SaveStudentToCSV();

@@ -12,7 +12,7 @@ namespace DirectoryandIo
     {
         public static List<Student> students = new List<Student>();
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string ?Name { get; set; }
         public int Age { get; set; }
 
         static Student()
@@ -29,10 +29,19 @@ namespace DirectoryandIo
             File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\Student.json", jsonvrr);
         }
 
-        public static string ToFixedLength()
+        public string ToFixedLength()
         {
             string str;
-            str = string.Format("{0:3}{1:5}{2:2}", Id, Name, Age);
+            str = string.Format("{0:2}{1:5}{2:2}",Id, Name, Age);
+            return str;
+        }
+        public static string ListOfFixedlength()
+        {
+            var str = "";
+            foreach (var item in students)
+            {
+                str += item.ToFixedLength() + Environment.NewLine;
+            }
             return str;
         }
         public string ToCSV()

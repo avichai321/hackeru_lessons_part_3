@@ -31,12 +31,23 @@ namespace DirectoryandIo
             Student.SaveStudentTojson();
             #endregion
 
+            #region 4
+            Student.ToFixedLength();
+            #endregion
             #region 5
             Student.SaveStudentToCSV();
             #endregion
-
             #region 6
             Student.ReadStudentFromCSV();
+            #endregion
+            #region 7
+            // בכללי פורמט fixed length הוא יותר חסכוני 
+            #endregion
+            #region 8
+            // הוא מגביל אותנו 
+            #endregion
+            #region 9
+            // הרבה יותר קצר ומסודר מבחינת כתיבה והוא רק ב0ו1
             #endregion
         }
     }

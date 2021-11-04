@@ -29,6 +29,12 @@ namespace DirectoryandIo
             File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 16\DirectoryandIo\DirectoryandIo\Student.json", jsonvrr);
         }
 
+        public static string ToFixedLength()
+        {
+            string str;
+            str = string.Format("{0:3}{1:5}{2:2}", Id, Name, Age);
+            return str;
+        }
         public string ToCSV()
         {
             string str;

@@ -45,18 +45,18 @@ namespace HackerWe.Logic
         {
             var jsonSTR = JsonSerializer.Serialize(Library.Books);
 
-            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\HackerWe-master\HackerWe-master\HackerWe.UI\books.json", jsonSTR);
+            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 17\HackerWe-master\HackerWe-master\HackerWe.UI\books.json", jsonSTR);
         }
         public static void SaveBorrowings()
         {
             var jsonSTR = JsonSerializer.Serialize(Library.Borowings);
-            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\HackerWe-master\HackerWe-master\HackerWe.UI\borrowings.json", jsonSTR);
+            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 17\HackerWe-master\HackerWe-master\HackerWe.UI\borrowings.json", jsonSTR);
         }
 
         public static void SaveClients()
         {
             var jsonSTR = JsonSerializer.Serialize(Library.Clients);
-            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\HackerWe-master\HackerWe-master\HackerWe.UI\Clients.json", jsonSTR);
+            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming - C# Net Core\hackeru_lessons_part_3\שיעור 17\HackerWe-master\HackerWe-master\HackerWe.UI\Clients.json", jsonSTR);
         }
         #endregion
 

@@ -42,6 +42,9 @@ namespace HackerWe.UI
             booksUserControl.Parent = panel1;
             booksUserControl.BookAdded += (addbook) =>
              {
+                 panel1.Controls.Clear();
+                 BorrowingUserControl borrowing = new BorrowingUserControl();
+                 borrowing.Parent = panel1;
                  lblMessages.Text = $"The book '{addbook.Name}' By {addbook.Author} added succesfully ";
                  timer.Start();
              };
@@ -54,7 +57,7 @@ namespace HackerWe.UI
             BorrowingUserControl borrowingUserControl = new BorrowingUserControl();
             borrowingUserControl.BorrowingSaved += (borrowing) =>
             {
-                lblMessages.Text = "Borowing saved successfully "+ borrowing.Id;
+                lblMessages.Text = "Borowing saved successfully " + borrowing.Id;
                 timer.Start();
             };
             borrowingUserControl.Parent = panel1;
@@ -68,10 +71,14 @@ namespace HackerWe.UI
             AddClientUserControl1 addClientUserControl = new AddClientUserControl1();
             addClientUserControl.clientAdded += (NewClient) =>
             {
+                panel1.Controls.Clear();
+                BorrowingUserControl borrowing = new BorrowingUserControl();
+                borrowing.Parent = panel1;
                 lblMessages.Text = "The client " + NewClient.FullName + " added succesfully";
                 timer.Start();
             };
             addClientUserControl.Parent = panel1;
+
 
         }
     }

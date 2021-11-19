@@ -9,12 +9,16 @@ namespace nultithered_5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Search search = new Search(textBox1.Text,textBox2.Text);
-            search.Searchvalue +=(value) =>
+            Thread thread = new Thread(() =>
             {
-                listBox1.Items.Add(value);
-            };
-            search.search();
+                Search search = new Search(textBox1.Text, textBox2.Text);
+                search.Searchvalue += (value) =>
+                 {
+                     listBox1.Items.Add(value);
+                 };
+                search.search();
+            });
+            thread.Start();
 
         }
     }

@@ -69,6 +69,7 @@ namespace HackerWe.UI
         {
             panel1.Controls.Clear();
             AddClientUserControl1 addClientUserControl = new AddClientUserControl1();
+            addClientUserControl.Parent = panel1;
             addClientUserControl.clientAdded += (NewClient) =>
             {
                 panel1.Controls.Clear();
@@ -77,7 +78,6 @@ namespace HackerWe.UI
                 lblMessages.Text = "The client " + NewClient.FullName + " added succesfully";
                 timer.Start();
             };
-            addClientUserControl.Parent = panel1;
 
 
         }

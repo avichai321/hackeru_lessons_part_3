@@ -37,9 +37,9 @@ namespace HackerWe.UI
             newbook.NumberOfBorrowedOut = 0;
             newbook.DatePublished = publisheddateTimePicker1.Value;
 
-            Library.Books.Add(newbook);
+            Library.Books.Insert(0,newbook);
             Library.SaveBooksAsJSON();
-            richTextBox1.Text = "Book Added succefully";
+            //richTextBox1.Text = "Book Added succefully";
             BookAdded(newbook);
         }
     }

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f94ecdf8-c219-48c9-b428-19d7f5d1e134": {
+      "ProjectGuid": "f94ecdf8-c219-48c9-b428-19d7f5d1e134",
+      "DisplayName": "multithreading",
+      "ColorIndex": 0
+    },
+    "2531215e-a531-4d72-aeac-a2e3c65597d6": {
+      "ProjectGuid": "2531215e-a531-4d72-aeac-a2e3c65597d6",
+      "DisplayName": "nultithered 5",
+      "ColorIndex": 1
+    },
+    "1a5d9eda-968d-40f1-ae0d-dae2a0656ac8": {
+      "ProjectGuid": "1a5d9eda-968d-40f1-ae0d-dae2a0656ac8",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

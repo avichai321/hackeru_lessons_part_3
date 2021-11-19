@@ -56,7 +56,7 @@ namespace HackerWe.Logic
         public static void SaveClients()
         {
             var jsonSTR = JsonSerializer.Serialize(Library.Clients);
-            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming - C# Net Core\hackeru_lessons_part_3\שיעור 17\HackerWe-master\HackerWe-master\HackerWe.UI\Clients.json", jsonSTR);
+            File.WriteAllText(@"D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 17\HackerWe-master\HackerWe-master\HackerWe.UI\Clients.json", jsonSTR);
         }
         #endregion
 

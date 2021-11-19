@@ -1,0 +1,16 @@
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.GlobalUsings.g.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.csproj.AssemblyReference.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.AssemblyInfoInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.AssemblyInfo.cs
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.csproj.CoreCompileInputs.cache
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\multithreading.exe
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\multithreading.deps.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\multithreading.runtimeconfig.json
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\multithreading.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\ref\multithreading.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\bin\Debug\net6.0\multithreading.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\ref\multithreading.dll
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.pdb
+D:\לימודים דוטנט האקריו\Object Oriented Programming- C# Net Core\hackeru_lessons_part_3\שיעור 18\multithreading\multithreading\obj\Debug\net6.0\multithreading.genruntimeconfig.cache

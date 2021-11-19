@@ -35,9 +35,9 @@ namespace HackerWe.UI
                 clientnew.LastName = LastNametextBox4.Text;
                 clientnew.Email = EmailtextBox5.Text;
                 clientnew.PhoneNumber = PhoneNumbertextBox6.Text;
-                Library.Clients.Add(clientnew);
+                Library.Clients.Insert(0,clientnew);
                 Library.SaveClients();
-                richTextBox1.Text = "The new client Added succefully";
+                //richTextBox1.Text = "The new client Added succefully";
                 clientAdded(clientnew);
             }
             catch (EmailNotGoodException)

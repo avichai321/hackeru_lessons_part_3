@@ -38,7 +38,8 @@ namespace multithreading
                 
             }
             Console.WriteLine(sum);
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
+            Task.Delay(2000);
         }
     }
 }

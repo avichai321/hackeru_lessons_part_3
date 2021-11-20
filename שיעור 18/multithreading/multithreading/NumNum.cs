@@ -12,15 +12,26 @@ namespace multithreading
         public string TheredName { get; set; }
         public void sleep()
         {
-            Thread thread = new Thread(() =>
+            //Thread thread = new Thread(() =>
+            //{
+            //    Console.WriteLine($"{TheredName} going to sleep");
+            //    Thread.Sleep(SleepTime);
+            //    Console.WriteLine($"{TheredName} done sleeping");
+            //    Console.WriteLine($"Thread '{TheredName}' ; Sleep time {SleepTime / 1000f} seconds");
+            //});
+            //thread.Start();
+            //thread.Join();
+
+            Task task = new Task(() =>
             {
                 Console.WriteLine($"{TheredName} going to sleep");
                 Thread.Sleep(SleepTime);
                 Console.WriteLine($"{TheredName} done sleeping");
-                Console.WriteLine($"Thread '{TheredName}' ; Sleep time {SleepTime / 1000f} seconds");
+                Console.WriteLine($"task '{TheredName}' ; Sleep time {SleepTime / 1000f} seconds");
+                
             });
-            thread.Start();
-            thread.Join();
+            task.Start();
+            task.Wait();
         }
         public NumNum(string nameOfThered)
         {

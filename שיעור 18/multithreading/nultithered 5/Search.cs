@@ -18,43 +18,51 @@ namespace nultithered_5
             SearchTerm = searchTerm;
         }
 
-        public event Action<string> Searchvalue;
+        public static event Action<string> Searchvalue;
         public void search()
         {
-            var dir1 = new DirectoryInfo(@Drive);
-            var result = dir1.GetFiles();
-            string ?line = string.Empty;
-            foreach (var item in result)
-            {
-                if (item.Name.Contains(Extensions[0]))
+                var dir1 = new DirectoryInfo(@Drive);
+                var result = dir1.GetFiles();
+                string? line = string.Empty;
+                foreach (var item in result)
                 {
-                    using (var reader = new StreamReader(item.FullName))
+                    if (item.Name.Contains(Extensions[0]))
                     {
-                        while (line != null)
+                        using (var reader = new StreamReader(item.FullName))
                         {
-                            line = reader.ReadLine();
-                            if (line == null)
+                            while (line != null)
                             {
+                                line = reader.ReadLine();
+                                if (line == null)
+                                {
 
-                                var str = $"not found in {item.FullName}";
-                                Searchvalue(str);
-                                break;
+                                    var str = $"not found in {item.FullName}";
+                                    Searchvalue(str);
+                                    break;
+                                }
+                                if (line.Contains(SearchTerm)) { var str = $"found in {item.FullName}"; Searchvalue(str); break; }
+
+
                             }
-                            if (line.Contains(SearchTerm)) { var str = $"found in {item.FullName}"; Searchvalue(str); break; }
-
-
-                        } 
+                        }
                     }
-                }
-                else
-                {
-                    var str = $"{item.Name} is not txt file";
-                    Searchvalue(str);
-                }
+                    else
+                    {
+                        var str = $"{item.Name} is not txt file";
+                        Searchvalue(str);
+                    }
 
+
+                }
+         
+            
+            
+
+
+        
 
             }
 
         }
     }
-}
+

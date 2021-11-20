@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bb69bc05-21c8-458b-a9c4-34d03558111b": {
+      "ProjectGuid": "bb69bc05-21c8-458b-a9c4-34d03558111b",
+      "DisplayName": "linq",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

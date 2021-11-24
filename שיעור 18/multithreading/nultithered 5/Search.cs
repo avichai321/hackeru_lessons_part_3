@@ -21,7 +21,18 @@ namespace nultithered_5
         public static event Action<string> Searchvalue;
         public void search()
         {
-                var dir1 = new DirectoryInfo(@Drive);
+            Searchindir(@Drive + ":\\");
+            var drive1 = Directory.GetDirectories(@Drive + ":\\");
+            foreach (var dir in drive1)
+            {
+                Searchindir(dir);
+            }
+        }
+        public void Searchindir(string dir)
+        {
+            var dir1 = new DirectoryInfo(dir);
+            try
+            {
                 var result = dir1.GetFiles();
                 string? line = string.Empty;
                 foreach (var item in result)
@@ -48,21 +59,18 @@ namespace nultithered_5
                     }
                     else
                     {
-                        var str = $"{item.Name} is not txt file";
+                        var str = $"{item.FullName} is not txt file";
                         Searchvalue(str);
                     }
-
-
                 }
-         
-            
-            
-
-
-        
-
             }
-
+            catch
+            {
+                return;
+            }
         }
+
+
     }
+}
 

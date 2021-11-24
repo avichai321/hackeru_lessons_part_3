@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8qw4M6VU8CSTolgIQcP0l5KbTCND3FATBJsEbeWiK5Vn986fObJRFeHmN4a86haNO+4XfdbHGVCjD3J3VM9DnA==",
+  "dgSpecHash": "nz0jb+y9vbC5EBWdPnocOc3LMsEUMoUJ/RJ+XBGBAzopOR5TRTexKkSm3Nka/UZgIEO/OG0liWJriWLJdBZ3Ww==",
   "success": true,
   "projectFilePath": "D:\\לימודים דוטנט האקריו\\Object Oriented Programming- C# Net Core\\hackeru_lessons_part_3\\שיעור 6\\ConsoleApp1\\ConsoleApp1\\lesson6-homework.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DAHAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

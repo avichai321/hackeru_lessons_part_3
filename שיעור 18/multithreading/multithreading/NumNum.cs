@@ -31,7 +31,19 @@ namespace multithreading
                 
             });
             task.Start();
-            task.Wait();
+            
+        }
+
+        public async void sleepAsync()
+        {
+            await Task.Run(() =>
+            {
+                Console.WriteLine($"{TheredName} going to sleep");
+                Thread.Sleep(SleepTime);
+                Console.WriteLine($"{TheredName} done sleeping");
+                Console.WriteLine($"task '{TheredName}' ; Sleep time {SleepTime / 1000f} seconds");
+
+            });
         }
         public NumNum(string nameOfThered)
         {

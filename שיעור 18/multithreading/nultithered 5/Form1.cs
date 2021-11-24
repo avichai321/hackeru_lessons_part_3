@@ -14,25 +14,32 @@ namespace nultithered_5
             };
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
 
-            //Thread thread = new Thread((value) =>
+            Thread thread = new Thread(() =>
+            {
+                Search search = new Search(textBox1.Text, textBox2.Text);
+                search.search();
+
+            });
+            thread.Start();
+
+            //Task task = new Task(() =>
             //{
-            //Search search = new Search(textBox1.Text, textBox2.Text);
+            //    Search search = new Search(textBox1.Text, textBox2.Text);
             //    search.search();
-
             //});
-            //thread.Start();
+            //task.Start();
 
-            Task task = new Task(() =>
+            await Task.Run(() =>
             {
                 Search search = new Search(textBox1.Text, textBox2.Text);
                 search.search();
             });
-            task.Start();
 
-                 
+
+
         }
     }
 }

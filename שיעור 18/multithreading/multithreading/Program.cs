@@ -6,7 +6,7 @@ namespace multithreading
 {
     public class Program
     {
-        public static async void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             #region 1
@@ -27,6 +27,9 @@ namespace multithreading
             //    }
             //});
             // task1.Start();
+
+            //ex1sync();
+
             #endregion
 
             #region 2
@@ -42,6 +45,8 @@ namespace multithreading
             //    var filename = ex2(@"C:\");
             //});
             //task2.Start();
+
+            //ex2sync();
             #endregion
 
             #region 3
@@ -55,6 +60,20 @@ namespace multithreading
             //numNum1.sleep();
             //numNum2.sleep();
             //numNum3.sleep();
+            //Console.WriteLine("Threads started");
+            #endregion
+
+            #region 3async
+
+            //NumNum numNum = new NumNum("bamba");
+            //NumNum numNum2 = new NumNum("Naruto");
+            //NumNum numNum1 = new NumNum("Luffy");
+            //NumNum numNum3 = new NumNum("Goku");
+            //Console.WriteLine("Starting threads");
+            //numNum.sleepAsync();
+            //numNum1.sleepAsync();
+            //numNum2.sleepAsync();
+            //numNum3.sleepAsync();
             //Console.WriteLine("Threads started");
             #endregion
 
@@ -78,24 +97,26 @@ namespace multithreading
             //}
             //Console.WriteLine("\n" + sum1);
 
-            Sumnum sumT1 = new Sumnum(1, 1000000);
+            //Sumnum sumT1 = new Sumnum(1, 1000000);
 
-            double divnum = sumT1.end / 200000;
+            //double divnum = sumT1.end / 200000;
 
-            for (int i = 0; i < divnum; i++)
-            {
-                var t1 = new Task(sumT1.Sumto200k);
-                t1.Start();
-                t1.Wait();
+            //for (int i = 0; i < divnum; i++)
+            //{
+            //    var t1 = new Task(sumT1.Sumto200k);
+            //    t1.Start();
+            //    t1.Wait();
 
-            }
+            //}
 
-            double sum2 = 0;
-            for (int i = 1; i <= 1000000; i++)
-            {
-                sum2 = sum2 + i;
-            }
-            Console.WriteLine("\n" + sum2);
+            //double sum2 = 0;
+            //for (int i = 1; i <= 1000000; i++)
+            //{
+            //    sum2 = sum2 + i;
+            //}
+            //Console.WriteLine("\n" + sum2);
+
+            //ex4sync();
             #endregion
 
         }
@@ -110,6 +131,37 @@ namespace multithreading
             }
             return dir;
 
+        }
+        public static async void ex4sync()
+        {
+            Sumnum sumT1 = new Sumnum(1, 1000000);
+
+            double divnum = sumT1.end / 200000;
+
+            for (int i = 0; i < divnum; i++)
+            {
+                var t1 =await Task.Run(()=>(sumT1.Sumto200k));
+            }
+        }
+        public static async void ex1sync()
+        {
+            await Task.Run(() =>
+           {
+               for (int i = 1; i <= 5000; i++)
+               {
+                   Console.WriteLine(i);
+               }
+           });
+     
+        }
+
+        public static async void ex2sync()
+        {
+           await Task.Run(() =>
+            {
+                var filename = ex2(@"C:\");
+            });
+            
         }
     }
 }
